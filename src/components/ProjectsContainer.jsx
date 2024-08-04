@@ -3,10 +3,7 @@ const ProjectsContainer = () => {
       <section className="projects-container">
         <h2>Projetos</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore at
-          rem fugit provident dolorum exercitationem, ducimus quisquam ratione
-          cumque reiciendis accusamus totam, veniam iusto numquam distinctio.
-          Dignissimos labore aspernatur pariatur?
+          Abaixo estão alguns projetos em meu github desenvolvido desde o começo incluindo algumas atividades da faculdade
         </p>
         <a href="https://github.com/BrayanCostaS?tab=repositories" className="btn" target="blank">
           Ver Projetos

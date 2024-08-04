@@ -16,7 +16,7 @@ const AboutContainer = () => {
 
         </p>
         <p>
-        Minhas competências técnicas incluem React, HTML, CSS, JavaScript e um pouco de SASS. Sou fascinado por tudo que envolve tecnologia, especialmente áreas de dados e administração de dados. Além disso, tenho um forte interesse por negócios, o que me motiva a buscar sempre uma compreensão mais profunda de como a tecnologia pode influenciar e melhorar processos empresariais.
+        Minhas competências técnicas incluem React, HTML, CSS, JavaScript. Sou fascinado por tudo que envolve tecnologia, especialmente áreas de dados e administração de dados. Além disso, tenho um forte interesse por negócios, o que me motiva a buscar sempre uma compreensão mais profunda de como a tecnologia pode influenciar e melhorar processos empresariais.
 
         Estou sempre empenhado em aprimorar minhas habilidades, atualmente através de cursos no LinkedIn Learning. Meu objetivo é continuar avançando na minha carreira e explorar oportunidades de estudo no exterior.
 
