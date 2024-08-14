@@ -4,6 +4,8 @@ import React from 'react'
 import Avatar from "../img/brayan.jpg";
 import "../styles/components/sidebar.sass";
 import InformationContainer from './InformartionContainer';
+import MyWebsite from './MyWebsite';
+
 
 
 const Sidebar= () => {
@@ -18,6 +20,12 @@ const Sidebar= () => {
         <a href="../public/Curriculum_Brayan.jpg" className="btn" target="_blank" >
             Carregar o currículo (jpg)
         </a>
+
+        <a href="../MyWebsite" className="btn" target="_blank" >
+            Carregar o currículo (jpg)
+        </a>
+
+        
     </aside>
     )
 }

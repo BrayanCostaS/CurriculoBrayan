@@ -1,23 +1,21 @@
-
-import Sidebar from "./components/Sidebar";
-import MainContent from "./components/MainContent";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Layout from './components/Layout';
+import MyWebsite from './components/MyWebsite'; // Importando o componente adicional
 import "./styles/components/app.sass";
 
-
 function App() {
-
   return (
-    <>
-      <div id="portifolio">
-      <h1>Brayan Costa</h1>
-      <Sidebar />
-      <MainContent />
-      
-      
-      </div>
-    
-    </>
-  )
+    <Router>
+      <Routes>
+        {/* Rota para o layout com Header e Sidebar */}
+        <Route path="/" element={<Layout />} />
+
+        {/* Rota para o MyWebsite sem Header e Sidebar */}
+        <Route path="/MyWebsite" element={<MyWebsite />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
